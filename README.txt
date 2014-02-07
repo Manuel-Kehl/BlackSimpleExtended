@@ -1,11 +1,10 @@
-
 	C R E D I T S
 Template has been made by Tristar Web Design (www.webdesinglondon-tristar.co.uk) and fully integrated with GetSimple by Artur Główczyński aka Artix (www.artglow.me). 
 Further modifications including the proper integration of the "Child Menu" Plugin for GetSimple have been done by Manuel Kehl aka mank319 (manuel-kehl.de).
 We would be grateful if you leave the credit links in footer of template.php file.
 
 	H O W  T O  I N S T A L L
-Just upload all files from .zip archive to "theme" dir at your server. Next go to the admin page of your GetSimple site and activate the Theme under the "Theme" tab.
+Just upload all files from the archive to "theme" dir at your server. Next go to the admin page of your GetSimple site and activate the theme via the "Theme" tab.
 If you have command line access to your webserver and like working in a shell, you may consider automating the install process with https://github.com/mank319/gscmsh.
 
 	M O D I F I C A T I O N S
