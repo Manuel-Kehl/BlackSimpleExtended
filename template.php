@@ -24,21 +24,22 @@
         <nav>
             <ul class="menu">
                 <?php get_navigation(return_page_slug(FALSE)); ?>
-                <?php
-		  /*
-		    First check if go_child_menu is availabe, so the theme does not
-		    cause php Errors, if the Child Menu Plugin is unavailable
-		  */
-		  if (function_exists('go_child_menu')) {
-		    go_child_menu();
-		  }
-                ?>
             </ul>
         </nav>
         
         <header>
         	<h1><a href="<?php get_site_url(); ?>"><?php get_site_name(); ?></a></h1>
         </header>
+        
+        <?php
+	  /*
+	    First check if go_child_menu is availabe, so the theme does not
+	    cause php Errors, if the Child Menu Plugin is unavailable
+	  */
+	  if (function_exists('go_child_menu')) {
+	    go_child_menu();
+	  }
+        ?>
       
         <section id="main" class="clearfix">
           
@@ -61,7 +62,7 @@
             
             <section id="templatecopy">
 			<!-- Please do not remove the copyright below! Of course you can edit it, but I would be grateful if you leave link to my main site. -->
-                <p>Copyright &copy; <a href="/"><?php get_site_name(); ?></a> | <?php get_site_credits(); ?> | Designed by <a href="http://artglow.me" target="_blank">ArtGlow</a></p>
+                <p>Copyright &copy; <a href="/"><?php get_site_name(); ?></a> | <?php get_site_credits(); ?> | Original Theme by <a href="http://artglow.me" target="_blank">ArtGlow</a> enhanced by <a href="http://manuel-kehl.de" target="_blank">mank319</a></p>
 				
             </section>
         

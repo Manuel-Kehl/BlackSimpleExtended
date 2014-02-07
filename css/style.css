@@ -88,7 +88,10 @@ nav ul.menu li a:hover
 
 #child_menu
 {
-	display: inline;
+  clear: both;
+  position: relative;
+  top: -15px;
+	/*display: block;*/
 }
 
 #child_menu a
