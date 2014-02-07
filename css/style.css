@@ -72,6 +72,53 @@ nav ul.menu li a:hover
 	color: #9C0;
 }
 
+/* Start Child Menu Styles - Variation of Nav */
+#child_menu
+{
+	width: 940px;
+	height: 40px;
+}
+
+/*
+#child_menu
+{
+	float: right;
+}
+*/
+
+#child_menu
+{
+	display: inline;
+}
+
+#child_menu a
+{
+	float: left;
+	line-height: 40px;
+	padding: 0 20px;
+	background: #111;
+	color: #FFF;
+	font-weight: bold;
+}
+
+#child_menu .current a
+{
+	background: #191919;
+	color: #FFF;
+}
+
+#child_menu a:hover
+{
+	color: #9C0;
+}
+
+/* hide parent item to avoid redundancy */
+ #child_menu #parent a {
+     display: none;
+}
+
+/* End Child Menu Styles */
+
 /* Start Header Styles */
 
 header
@@ -204,3 +251,4 @@ section#templatecopy a
 }
 
 /* End Footer Styles */
+

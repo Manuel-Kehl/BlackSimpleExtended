@@ -24,6 +24,13 @@
         <nav>
             <ul class="menu">
                 <?php get_navigation(return_page_slug(FALSE)); ?>
+                <?php
+		  /*
+		    First check if go_child_menu is availabe, so the theme does not
+		    cause php Errors, if the Child Menu Plugin is unavailable
+		  */
+		  go_child_menu();
+                ?>
             </ul>
         </nav>
         
