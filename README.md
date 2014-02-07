@@ -22,3 +22,4 @@ S U P P O R T
 -------------
 Original Version: You can get support for the original theme via author's site - http://artglow.me - or by GetSimple Community Forum. Just contact with user "Artur" by PM's.
 Extended Version: Any questions related to the Child Menu Integration can be directed to me, "mank319" on the GetSimple Community Forums. Furhter information may be found at http://manuel-kehl.de
+
