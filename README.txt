@@ -5,7 +5,7 @@ Further modifications including the proper integration of the "Child Menu" Plugi
 We would be grateful if you leave the credit links in footer of template.php file.
 
 	H O W  T O  I N S T A L L
-It is a simple instalation like all GetSimple themes. Just upload all files from .zip archive to "theme" dir at your server. Next go to admin page of your GetSimple site, go to Theme page, select BlackSimple from the list and click "Activate Theme".
+Just upload all files from .zip archive to "theme" dir at your server. Next go to the admin page of your GetSimple site and activate the Theme under the "Theme" tab.
 If you have command line access to your webserver and like working in a shell, you may consider automating the install process with https://github.com/mank319/gscmsh.
 
 	M O D I F I C A T I O N S
