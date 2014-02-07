@@ -1,5 +1,5 @@
 	C R E D I T S
-Template has been made by Tristar Web Design (www.webdesinglondon-tristar.co.uk) and fully integrated with GetSimple by Artur Główczyński aka Artix (www.artglow.me). 
+Template has been made by Tristar Web Design (http://www.tristarwebdesign.co.uk) and fully integrated with GetSimple by Artur Główczyński aka Artix (www.artglow.me). 
 Further modifications including the proper integration of the "Child Menu" Plugin for GetSimple have been done by Manuel Kehl aka mank319 (manuel-kehl.de).
 We would be grateful if you leave the credit links in footer of template.php file.
 
