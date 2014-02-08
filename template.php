@@ -15,7 +15,7 @@
         
             <section id="content">    
                 <article>
-                    <h2><?php get_page_title(); ?></h2>
+                    <h1><?php get_page_title(); ?></h1>
                     <p><?php get_page_content(); ?></p>
                 </article>            
             </section>

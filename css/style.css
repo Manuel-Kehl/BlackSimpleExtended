@@ -22,6 +22,7 @@ a:hover img.imgright { border: 5px solid #9C0; padding: 1px; margin: 0 0 10px 15
 
 h1, h2, h3, h4, h5 { font-weight: bold; font-size: 24px; margin: 0 0 15px 0; color: #FFF; text-shadow: 2px 2px 2px #000000; }
 h3 {font-size: 20px}
+h4 {font-size: 16px}
 
 /* Start Wrapper Container */
 
@@ -162,6 +163,24 @@ section#main
 {
 	width: 940px;
 	line-height: 24px;
+}
+
+section#main p {
+  margin-bottom: 20px;
+}
+
+section#main h2
+{
+  margin-top: 15px;
+}
+
+section#main h3
+{
+ 
+}
+
+section#main h4 {
+  margin-top: 15px;
 }
 
 section#content
