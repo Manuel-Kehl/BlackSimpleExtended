@@ -4,6 +4,11 @@
 
 /* Template Layout CSS */
 
+html {
+   overflow-y: scroll;
+   height: 101%
+}
+
 body
 {
 	background: #111;
