@@ -8,7 +8,7 @@ body
 {
 	background: #111;
 	font-family: Helvetica, Arial, sans-serif;
-	color: #888;
+	color: #858585;
 	padding: 20px;
 	font-size: 14px;
 }
@@ -84,19 +84,11 @@ nav ul.menu li a:hover
 	height: 40px;
 }
 
-/*
-#child_menu
-{
-	float: right;
-}
-*/
-
 #child_menu
 {
   clear: both;
   position: relative;
   top: -15px;
-	/*display: block;*/
 }
 
 #child_menu a
