@@ -9,6 +9,7 @@
 ?>
 
 <?php require('header.inc.php'); ?>
+<?php require('childmenu.inc.php'); ?>
       
         <section id="main" class="clearfix">
         

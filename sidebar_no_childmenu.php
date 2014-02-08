@@ -9,7 +9,6 @@
 ?>
 
 <?php require('header.inc.php'); ?>
-<?php require('childmenu.inc.php'); ?>
       
         <section id="main" class="clearfix">
         
@@ -19,6 +18,10 @@
                     <p><?php get_page_content(); ?></p>
                 </article>            
             </section>
+            
+            <aside id="sidebar">
+	      <?php get_component('sidebar'); ?>
+            </aside>
             
       </section>
 

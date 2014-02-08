@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html lang="en">
 <head>
@@ -18,16 +17,8 @@
             </ul>
         </nav>
         
+        <?php get_component('search'); ?>
+        
         <header>
         	<h1><a href="<?php get_site_url(); ?>"><?php get_site_name(); ?></a></h1>
         </header>
-        
-        <?php
-	  /*
-	    First check if go_child_menu is availabe, so the theme does not
-	    cause php Errors, if the Child Menu Plugin is unavailable
-	  */
-	  if (function_exists('go_child_menu')) {
-	    go_child_menu();
-	  }
-        ?>
