@@ -17,8 +17,6 @@
             </ul>
         </nav>
         
-        <?php get_component('search'); ?>
-        
         <header>
         	<h1><a href="<?php get_site_url(); ?>"><?php get_site_name(); ?></a></h1>
         </header>
