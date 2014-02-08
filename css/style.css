@@ -288,3 +288,10 @@ section#templatecopy a
   margin-bottom: 25px;
 }
 
+#sidebar ul.search-results li a {
+  font-size: 14px;
+}
+
+#sidebar ul.search-results .search-entry-excerpt {
+  display: none;
+}
