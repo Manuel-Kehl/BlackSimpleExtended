@@ -11,9 +11,9 @@
 <?php require('header.inc.php'); ?>
 <?php require('childmenu.inc.php'); ?>
       
-        <section id="main" class="clearfix">
+        <section id="main" class="clearfix" >
         
-            <section id="content">    
+            <section id="content" class="no_sidebar">    
                 <article>
                     <h1><?php get_page_title(); ?></h1>
                     <p><?php get_page_content(); ?></p>

@@ -168,29 +168,30 @@ section#main
 	line-height: 24px;
 }
 
-section#main p {
+section#content p {
   margin-bottom: 20px;
 }
 
-section#main h2
+section#content h2
 {
   margin-top: 15px;
 }
 
-section#main h3
-{
- 
-}
-
-section#main h4 {
+section#content h4 {
   margin-top: 15px;
 }
 
+/*content for default template pages with sidebar*/
 section#content
 {
 	float: left;
 	width: 560px;
 	padding: 20px;
+}
+
+/*content for no_sidebar templates*/
+section#content.no_sidebar {
+  width: 940px;
 }
 
 aside#sidebar
@@ -225,6 +226,10 @@ aside#sidebar ul li a:hover
 	background: #9C0;
 	border-left: 3px solid #9C0;
 	color: #111;
+}
+
+#sidebar ul {
+  margin-bottom: 20px;
 }
 
 /* End Main Styles */
