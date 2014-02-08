@@ -278,3 +278,13 @@ section#templatecopy a
 
 /* End Footer Styles */
 
+/* Search Styles */
+.search-entry-date {
+  font-size: 12px;
+  color: white;
+}
+
+#content ul.search-results li{
+  margin-bottom: 25px;
+}
+
