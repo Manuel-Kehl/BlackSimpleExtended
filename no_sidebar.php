@@ -20,10 +20,6 @@
                 </article>            
             </section>
             
-            <aside id="sidebar">
-	      <?php get_component('sidebar'); ?>
-            </aside>
-            
       </section>
 
 <?php require('footer.inc.php'); ?>
