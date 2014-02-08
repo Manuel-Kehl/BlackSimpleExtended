@@ -78,7 +78,6 @@ nav ul.menu li.current a
 
 nav ul.menu li a:hover
 {
-	
 	color: #9C0;
 }
 
@@ -89,7 +88,8 @@ nav ul.menu li a:hover
   height: 40px;
   clear: both;
   position: relative;
-  top: -15px;
+  /*top: -15px;*/
+  margin-top: -15px;
 }
 
 #child_menu a
