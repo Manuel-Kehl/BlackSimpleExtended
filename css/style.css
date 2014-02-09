@@ -87,8 +87,6 @@ nav ul.menu li a:hover
   width: 940px;
   height: 40px;
   clear: both;
-  position: relative;
-  margin-top: -15px;
 }
 
 #child_menu a
