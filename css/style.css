@@ -20,7 +20,7 @@ body
 
 a { color: #9C0; }
 a:hover { color: #FFF; }
-
+p { margin: 0 0 0 0; }
 
 a img.imgright { float: right; padding: 5px; margin: 0 0 10px 15px; border: 1px solid #333; }
 a:hover img.imgright { border: 5px solid #9C0; padding: 1px; margin: 0 0 10px 15px; }
@@ -161,19 +161,19 @@ section#main
 }
 
 
-section#main p, ul, ol { 
+section#main p, section#mainul, section#main ol { 
   margin-top: 8px;
   margin-bottom: 8px;
 }
 
 
 /*Avoid margins for nested lists*/
-section#main ul ul, ul ol, ol ul, ol ol {
+section#main ul ul, section#main ul ol, section#main ol ul, section#main ol ol {
   margin-top: 0px;
   margin-bottom:0px;
 }
 
-section#main ul , ol{
+section#main ul , section#main ol{
   margin-left: 20px;
 }
 
