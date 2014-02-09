@@ -160,6 +160,11 @@ section#main
   line-height: 24px;
 }
 
+section#main ul {
+  list-style: square;
+  margin-left: 20px;
+}
+
 section#content p {
   margin-bottom: 20px;
 }
