@@ -99,6 +99,12 @@ nav ul.menu li a:hover
   font-weight: bold;
 }
 
+#child_menu .currentpath a
+{
+  background: #191919;
+  color: #FFF;
+}
+
 #child_menu .current a
 {
   background: #191919;
